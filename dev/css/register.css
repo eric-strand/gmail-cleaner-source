@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+h1 {
+    font-family: 'Roboto';
+}
+
+.main {
+    border-left: 5px solid #c71610;
+    border-right: 5px solid #c71610;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.video-register-title {
+    font-weight: 100;
+}
+
+.file-btn {
+    font-size: 5px;
+    color:red;
+}

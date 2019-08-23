@@ -1,0 +1,233 @@
+[14-Dec-2018 11:24:56 UTC] PHP Warning:  require(/home/ubuntu/workspace/dev/php../../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:24:56 UTC] PHP Stack trace:
+[14-Dec-2018 11:24:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:24:56 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/dev/php../../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:24:56 UTC] PHP Stack trace:
+[14-Dec-2018 11:24:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:25:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'This application must be run on the command line.' in /home/ubuntu/workspace/dev/php/start-application.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/dev/php/start-application.php on line 7
+[14-Dec-2018 11:35:26 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/dev/php/start-application.php(7): Google_Client->setAuthConfig('credentials.jso...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php on line 859
+[14-Dec-2018 11:37:57 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/dev/php/start-application.php(7): Google_Client->setAuthConfig('../../../../../...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php on line 859
+[14-Dec-2018 11:38:46 UTC] PHP Fatal error:  Undefined class constant 'GMAIL_LABELS' in /home/ubuntu/workspace/dev/php/start-application.php on line 8
+[14-Dec-2018 11:38:46 UTC] PHP Stack trace:
+[14-Dec-2018 11:38:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:39:52 UTC] PHP Fatal error:  Undefined class constant 'GMAIL_LABELS' in /home/ubuntu/workspace/dev/php/start-application.php on line 8
+[14-Dec-2018 11:39:52 UTC] PHP Stack trace:
+[14-Dec-2018 11:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:41:13 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:41:13 UTC] PHP Stack trace:
+[14-Dec-2018 11:41:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:41:13 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/dev/php../../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dev/php/oauth2callback.php on line 2
+[14-Dec-2018 11:41:13 UTC] PHP Stack trace:
+[14-Dec-2018 11:41:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/oauth2callback.php:0
+[14-Dec-2018 11:41:13 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/dev/php../../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dev/php/oauth2callback.php on line 2
+[14-Dec-2018 11:41:13 UTC] PHP Stack trace:
+[14-Dec-2018 11:41:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/oauth2callback.php:0
+[14-Dec-2018 11:41:39 UTC] PHP Warning:  require(/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:41:39 UTC] PHP Stack trace:
+[14-Dec-2018 11:41:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:41:39 UTC] PHP Fatal error:  require(): Failed opening required '/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:41:39 UTC] PHP Stack trace:
+[14-Dec-2018 11:41:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:42:19 UTC] PHP Warning:  require(/home/ubuntu/workspace/dev/phpvendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:42:19 UTC] PHP Stack trace:
+[14-Dec-2018 11:42:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:42:19 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/dev/phpvendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:42:19 UTC] PHP Stack trace:
+[14-Dec-2018 11:42:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:42:43 UTC] PHP Warning:  require(/home/ubuntu/workspace/dev/php../../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:42:43 UTC] PHP Stack trace:
+[14-Dec-2018 11:42:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:42:43 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/dev/php../../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:42:43 UTC] PHP Stack trace:
+[14-Dec-2018 11:42:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:43:47 UTC] PHP Warning:  require(../../autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:43:47 UTC] PHP Stack trace:
+[14-Dec-2018 11:43:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:43:47 UTC] PHP Fatal error:  require(): Failed opening required '../../autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:43:47 UTC] PHP Stack trace:
+[14-Dec-2018 11:43:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:44:41 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:44:41 UTC] PHP Stack trace:
+[14-Dec-2018 11:44:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:44:41 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 11:44:41 UTC] PHP Stack trace:
+[14-Dec-2018 11:44:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:45:07 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:45:07 UTC] PHP Stack trace:
+[14-Dec-2018 11:45:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:45:07 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php(844): Google_Client->setAuthConfig('credentials.jso...')
+#1 /home/ubuntu/workspace/dev/php/oauth2callback.php(7): Google_Client->setAuthConfigFile('credentials.jso...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php on line 859
+[14-Dec-2018 11:46:16 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php(844): Google_Client->setAuthConfig('credentials.jso...')
+#1 /home/ubuntu/workspace/dev/php/oauth2callback.php(7): Google_Client->setAuthConfigFile('credentials.jso...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php on line 859
+[14-Dec-2018 11:46:20 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:46:20 UTC] PHP Stack trace:
+[14-Dec-2018 11:46:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:46:57 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:46:57 UTC] PHP Stack trace:
+[14-Dec-2018 11:46:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:46:57 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php(844): Google_Client->setAuthConfig('credentials.jso...')
+#1 /home/ubuntu/workspace/dev/php/oauth2callback.php(7): Google_Client->setAuthConfigFile('credentials.jso...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php on line 859
+[14-Dec-2018 11:48:05 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php(844): Google_Client->setAuthConfig('credentials.jso...')
+#1 /home/ubuntu/workspace/dev/php/oauth2callback.php(7): Google_Client->setAuthConfigFile('credentials.jso...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php on line 859
+[14-Dec-2018 11:48:11 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:48:11 UTC] PHP Stack trace:
+[14-Dec-2018 11:48:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:48:11 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php(844): Google_Client->setAuthConfig('credentials.jso...')
+#1 /home/ubuntu/workspace/dev/php/oauth2callback.php(7): Google_Client->setAuthConfigFile('credentials.jso...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php on line 859
+[14-Dec-2018 11:49:12 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:49:12 UTC] PHP Stack trace:
+[14-Dec-2018 11:49:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:49:12 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php(844): Google_Client->setAuthConfig('credentials.jso...')
+#1 /home/ubuntu/workspace/dev/php/oauth2callback.php(7): Google_Client->setAuthConfigFile('credentials.jso...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php on line 859
+[14-Dec-2018 11:49:49 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:49:49 UTC] PHP Stack trace:
+[14-Dec-2018 11:49:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:49:49 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php(844): Google_Client->setAuthConfig('credentials.jso...')
+#1 /home/ubuntu/workspace/dev/php/oauth2callback.php(7): Google_Client->setAuthConfigFile('credentials.jso...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php on line 859
+[14-Dec-2018 11:53:12 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php(844): Google_Client->setAuthConfig('credentials.jso...')
+#1 /home/ubuntu/workspace/dev/php/oauth2callback.php(7): Google_Client->setAuthConfigFile('credentials.jso...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php on line 859
+[14-Dec-2018 11:53:15 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:53:15 UTC] PHP Stack trace:
+[14-Dec-2018 11:53:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:54:37 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:54:37 UTC] PHP Stack trace:
+[14-Dec-2018 11:54:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:55:50 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:55:50 UTC] PHP Stack trace:
+[14-Dec-2018 11:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:56:40 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:56:40 UTC] PHP Stack trace:
+[14-Dec-2018 11:56:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:56:40 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php(844): Google_Client->setAuthConfig('credentials.jso...')
+#1 /home/ubuntu/workspace/dev/php/oauth2callback.php(7): Google_Client->setAuthConfigFile('credentials.jso...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/google/apiclient/src/Google/Client.php on line 859
+[14-Dec-2018 11:59:01 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:59:01 UTC] PHP Stack trace:
+[14-Dec-2018 11:59:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 11:59:35 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 11:59:35 UTC] PHP Stack trace:
+[14-Dec-2018 11:59:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 12:00:57 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 12:00:57 UTC] PHP Stack trace:
+[14-Dec-2018 12:00:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 12:01:52 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 12:01:52 UTC] PHP Stack trace:
+[14-Dec-2018 12:01:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 12:03:46 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 12:03:46 UTC] PHP Stack trace:
+[14-Dec-2018 12:03:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 12:04:28 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 12:04:28 UTC] PHP Stack trace:
+[14-Dec-2018 12:04:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 12:05:47 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 12:05:47 UTC] PHP Stack trace:
+[14-Dec-2018 12:05:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 12:06:49 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 12:06:49 UTC] PHP Stack trace:
+[14-Dec-2018 12:06:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 12:07:10 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 12:07:10 UTC] PHP Stack trace:
+[14-Dec-2018 12:07:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 12:08:39 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 12:08:39 UTC] PHP Stack trace:
+[14-Dec-2018 12:08:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 12:13:28 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 22
+[14-Dec-2018 12:13:28 UTC] PHP Stack trace:
+[14-Dec-2018 12:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 12:19:02 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 20
+[14-Dec-2018 12:19:02 UTC] PHP Stack trace:
+[14-Dec-2018 12:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 15:27:06 UTC] PHP Warning:  require(/home/ubuntu/workspace/dev/php../../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 15:27:06 UTC] PHP Stack trace:
+[14-Dec-2018 15:27:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 15:27:06 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/dev/php../../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dev/php/start-application.php on line 3
+[14-Dec-2018 15:27:06 UTC] PHP Stack trace:
+[14-Dec-2018 15:27:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[14-Dec-2018 15:27:55 UTC] PHP Fatal error:  Call to undefined function getClient() in /home/ubuntu/workspace/dev/php/start-application.php on line 20
+[14-Dec-2018 15:27:55 UTC] PHP Stack trace:
+[14-Dec-2018 15:27:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/start-application.php:0
+[02-Feb-2019 19:04:04 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/dev/php/register.php on line 34
+[02-Feb-2019 19:04:04 UTC] PHP Stack trace:
+[02-Feb-2019 19:04:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/register.php:0
+[02-Feb-2019 19:04:04 UTC] PHP   2. getimagesize() /home/ubuntu/workspace/dev/php/register.php:34
+[16-May-2019 18:19:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/ubuntu/workspace/dev/php/classes/Accounts.php on line 2
+[16-May-2019 18:19:20 UTC] PHP Stack trace:
+[16-May-2019 18:19:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/register.php:0
+[16-May-2019 18:19:20 UTC] PHP   2. require() /home/ubuntu/workspace/dev/php/register.php:4
+[16-May-2019 18:19:20 UTC] PHP   3. session_start() /home/ubuntu/workspace/dev/php/classes/Accounts.php:2
+[17-May-2019 11:31:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/ubuntu/workspace/dev/php/classes/Accounts.php on line 2
+[17-May-2019 11:31:39 UTC] PHP Stack trace:
+[17-May-2019 11:31:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/register.php:0
+[17-May-2019 11:31:39 UTC] PHP   2. require() /home/ubuntu/workspace/dev/php/register.php:4
+[17-May-2019 11:31:39 UTC] PHP   3. session_start() /home/ubuntu/workspace/dev/php/classes/Accounts.php:2
+[17-May-2019 11:33:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/ubuntu/workspace/dev/php/classes/Accounts.php on line 2
+[17-May-2019 11:33:29 UTC] PHP Stack trace:
+[17-May-2019 11:33:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/register.php:0
+[17-May-2019 11:33:29 UTC] PHP   2. require() /home/ubuntu/workspace/dev/php/register.php:4
+[17-May-2019 11:33:29 UTC] PHP   3. session_start() /home/ubuntu/workspace/dev/php/classes/Accounts.php:2
+[17-May-2019 11:35:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/ubuntu/workspace/dev/php/classes/Accounts.php on line 2
+[17-May-2019 11:35:15 UTC] PHP Stack trace:
+[17-May-2019 11:35:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/register.php:0
+[17-May-2019 11:35:15 UTC] PHP   2. require() /home/ubuntu/workspace/dev/php/register.php:4
+[17-May-2019 11:35:15 UTC] PHP   3. session_start() /home/ubuntu/workspace/dev/php/classes/Accounts.php:2
+[17-May-2019 11:36:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/ubuntu/workspace/dev/php/classes/Accounts.php on line 2
+[17-May-2019 11:36:28 UTC] PHP Stack trace:
+[17-May-2019 11:36:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/register.php:0
+[17-May-2019 11:36:28 UTC] PHP   2. require() /home/ubuntu/workspace/dev/php/register.php:4
+[17-May-2019 11:36:28 UTC] PHP   3. session_start() /home/ubuntu/workspace/dev/php/classes/Accounts.php:2
+[17-May-2019 11:52:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/ubuntu/workspace/dev/php/classes/Accounts.php on line 2
+[17-May-2019 11:52:13 UTC] PHP Stack trace:
+[17-May-2019 11:52:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/register.php:0
+[17-May-2019 11:52:13 UTC] PHP   2. require() /home/ubuntu/workspace/dev/php/register.php:4
+[17-May-2019 11:52:13 UTC] PHP   3. session_start() /home/ubuntu/workspace/dev/php/classes/Accounts.php:2
+[17-May-2019 12:37:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/ubuntu/workspace/dev/php/classes/Accounts.php on line 2
+[17-May-2019 12:37:28 UTC] PHP Stack trace:
+[17-May-2019 12:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/dev/php/register.php:0
+[17-May-2019 12:37:28 UTC] PHP   2. require() /home/ubuntu/workspace/dev/php/register.php:4
+[17-May-2019 12:37:28 UTC] PHP   3. session_start() /home/ubuntu/workspace/dev/php/classes/Accounts.php:2
